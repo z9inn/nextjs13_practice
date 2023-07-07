@@ -1,0 +1,9 @@
+13버전에서는 기본적으로 app 폴더를 사용하여 페이지를 생성하고, 
+새로운 페이지를 app 폴더 아래에 만들면 Nextjs의 자동 라우팅 시스템이 적용된다
+
+대신, app 폴더 하위에 라우팅하려면 폴더를 먼저 만든 후 page.tsx 파일을 만들어주어야 동작한다
+
+src > app > test > page.tsx or page.js
+localhost:3000/test
+
+꼭 파일명을 page로 넣어야 라우팅이 제대로 작동한다
