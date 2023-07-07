@@ -1,11 +1,12 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
-    border-bottom: 1px solid #132f52;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #132f52;
 }
 
-.nav a { /* 공백: nav class 안에 들어있는 모든 a태그 */
-    padding: 0px 8px;
+.nav a {
+  /* 공백: nav class 안에 들어있는 모든 a태그 */
+  padding: 0px 8px;
 }

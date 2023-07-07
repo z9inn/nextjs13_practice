@@ -1,14 +1,22 @@
 .nav {
-    font-size: large;
-    padding: 20px;
-    margin-top: 8px;
-    border: 1px solid salmon ;
+  font-size: large;
+  padding: 20px;
+  margin-top: 8px;
+  border: 1px solid salmon;
 }
 
 .nav a {
-    padding: 0px 8px;
+  padding: 0px 8px;
 }
 
 .product {
-    padding: 16px;
+  padding: 16px;
+}
+
+.header {
+  padding: 8px;
+}
+
+.li {
+  padding: 8px;
 }
