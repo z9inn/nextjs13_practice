@@ -2,8 +2,16 @@ import { notFound } from "next/navigation";
 type Props = {
   params: {
     slug: string;
+    test: string;
   };
 };
+
+// export const generateMetadata = ({ params }: Props) => {
+//   console.log("hi@@@@@");
+//   return {
+//     title: `제품의 이름: ${params}`,
+//   };
+// };
 
 export default function PantsPage({ params }: Props) {
   if (params.slug === "nothing") {
@@ -16,5 +24,6 @@ export function generateStaticParams() {
   const products = ["pants", "skirt"];
   return products.map((product) => ({
     slug: product,
+    test: "test",
   }));
 }
