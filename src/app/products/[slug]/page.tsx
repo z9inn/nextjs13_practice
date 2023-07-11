@@ -11,7 +11,6 @@ type Props = {
 };
 
 export const generateMetadata = ({ params }: Props) => {
-  console.log("hi@@@@@");
   return {
     title: `제품의 이름: ${params}`,
   };

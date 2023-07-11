@@ -1,3 +1,4 @@
+import MeowArticle from "@/components/MeowArticle";
 import { getProducts } from "@/service/products";
 import Link from "next/link";
 import styles from "./layout.module.css";
@@ -17,6 +18,7 @@ export default async function ProductsPage() {
           </li>
         ))}
       </ul>
+      <MeowArticle />
     </>
   );
 }
