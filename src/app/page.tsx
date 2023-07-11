@@ -1,9 +1,6 @@
-import Image from "next/image";
-import { Inter } from "@next/font/google";
-import os, { hostname } from "os";
 import Counter from "@/components/Counter";
-
-const inter = Inter({ subsets: ["latin"] });
+import Image from "next/image";
+import os from "os";
 
 export default function Home() {
   console.debug(os.hostname());
