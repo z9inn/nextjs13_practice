@@ -7,7 +7,7 @@ export default function Home() {
 
   return (
     <>
-      <h1>@@@홈페이지 commit?@@@</h1>
+      <h1>@@@홈페이지 release Test@@@</h1>
       <Counter />
       <Image
         src="https://images.unsplash.com/photo-1441986300917-64674bd600d8"
